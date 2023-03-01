@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 120px 150px;
+    font-size: 25px;
+    padding: 10px;
+}
+.container{
+    background-color: #ddf4ee;
+    padding: 30px 45px 30px 45px;
+}
+.main-heading{
+    font: 40px "Open Sans", sans-serif;
+    color: #24622c;
+}
+.pi{
+    color: #4d4747;
+    font-weight: normal;
+    font: 30px "Open Sans", sans-serif;
+}
+.app-info{
+    color: #4d4747;
+    font-weight: normal;
+    font: 30px "Open Sans", sans-serif;
+}
+.same{
+    color: #469050;
+}
+textarea{
+    background-color: #ffffff75;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px;
+}
+textarea:hover{
+    background-color: #ffffff;
+}
+input[type="First"],
+input[type="Last"]{
+    width: 40%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+fieldset{
+    border: 1px solid;
+}
+.button{
+    background-color: #24622C;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 2em;
+    padding: 0 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    margin: 700px; 
+    margin-top: 10px;
+}
+.button:hover{
+    background-color: #2bbd3e;
+    cursor: pointer;
+}

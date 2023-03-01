@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="challenge1_form.css">
+    <title>Challenge1 Form</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main-heading">Appeal Application Form</h1>
+        <h3 class="pi">Personal Information</h3>
+        <div class="same">
+        <p>Name <br><input type="First" placeholder="First"> <input type="Last" placeholder="Last"></p>
+        <p>Student Number <br> <input type="Snumber" name="Snumber"></p>
+        <p class="app-info">Appeal Information</p>
+        <p>Request Summary <br><textarea name="Summary" id="Summary" cols="90" rows="7"></textarea></p>
+        <p>Letter of Appeal Upload</p>
+        <input type="submit" value="Choose files or drag here">
+        <p>Do you have supporting documents to upload in support of your appeal <br>
+            <select name="Do you have supporting documents to upload in support of your appeal" id="Do you have supporting documents to upload in support of your appeal">
+            <option value="Yes">Yes</option>
+            <option value="No, I will submit my supporting documents seperately">No, I will submit my supporting documents seperately</option>
+            <option value="No, I have no supporting documents to submit in support of this appeal">No, I have no supporting documents to submit in support of this appeal</option>
+            </select>
+        </p>
+        <p>Supporting Document Upload</p>
+        <input type="submit" value="Choose files or drag here">
+        <p>I confirm that I am the person indicated above, that I am submitting this appeal on my own behalf, and that all information included in this appeal is true and complete to the best of my knowledge</p>
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree</label>
+        <p class="end">In submitting this appeal, I authorize the Scholarships, Awards, Medals, and Bursaries Committee or the Athletic Awards Committee (as appropriate) to verify any information included in my appeal package and to seek additional clarifying information directly related to the appeal where required. This may involve activities such as, but not limited to, the following: consulting with faculty/staff at the University, contacting individuals involved in or related to my situation who may or may not have written a letter of support for this appeal, and seeking information from third parties to confirm timelines described in my personal letter</p>
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree</label><br><br> 
+        <input class="button" type="submit" value="SEND">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
